@@ -1,0 +1,19 @@
+.barbershop {
+  margin-top: 200px;
+}
+.barbershop__title {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.barbershop__subtitle {
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.barbershop .barbers__row {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  flex-wrap: wrap;
+}

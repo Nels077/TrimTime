@@ -1,0 +1,22 @@
+.barber {
+  margin-top: 100px;
+}
+.barber__row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.barber .menu {
+  max-width: 700px;
+  min-height: 500px;
+  -webkit-clip-path: polygon(50% 0%, 100% 7%, 100% 100%, 0 100%, 0 7%);
+          clip-path: polygon(50% 0%, 100% 7%, 100% 100%, 0 100%, 0 7%);
+  background: #0A142F;
+  padding: 100px 20px 50px 20px;
+}
+.barber .menu__content {
+  display: flex;
+  flex-direction: column;
+}
+.barber .menu__total h1 {
+  color: white;
+}

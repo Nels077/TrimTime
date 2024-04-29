@@ -1,0 +1,33 @@
+.barbers__column {
+  width: 200px;
+  padding: 12px 10px;
+  border-radius: 25px;
+  background: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.barbers__column:hover {
+  background-color: #a7a3a3;
+  scale: 0.97;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.barbers__column img {
+  max-width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.barbers__name {
+  font-size: 1.5rem;
+  margin: 10px 0px 10px 0px;
+}
+.barbers__workingTime span {
+  font-size: 1rem;
+}
+
+.dark {
+  background: #0A142F;
+  color: white;
+}

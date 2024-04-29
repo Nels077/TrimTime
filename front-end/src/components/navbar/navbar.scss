@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+
+    &__list {
+        display: flex;
+        column-gap: 48px;
+
+    }
+
+    &__item {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        a {
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width:660px) {
+    .nav{
+        &__list{
+
+            column-gap:15px;
+            row-gap: 200px;
+        }
+        &__item{
+            a{
+                font-size: 16px;
+            }
+        }
+    }
+}

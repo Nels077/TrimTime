@@ -1,0 +1,53 @@
+.main_background {
+  width: 100%;
+  min-height: 875px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.main_background .background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.main_background img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main_background span {
+  width: 50rem;
+  height: 15.625rem;
+  border-radius: 3.4375rem;
+  margin-top: 150px;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.main_background span h2 {
+  color: white;
+  font-size: 50px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media (max-width: 758px) {
+  .main_background span {
+    width: 40rem;
+    height: 13rem;
+    border-radius: 30px;
+  }
+  .main_background span h2 {
+    font-size: 35px;
+  }
+}

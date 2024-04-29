@@ -1,0 +1,30 @@
+.service {
+  max-width: 680px;
+  min-height: 40px;
+  background-color: #D9D9D9;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 20px;
+}
+.service__info {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: white;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button.active {
+  background-color: #005CB0;
+}

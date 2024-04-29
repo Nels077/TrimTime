@@ -1,0 +1,88 @@
+.form {
+  max-width: 300px;
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+.form__inp {
+  position: relative;
+}
+.form__inp:not(button):not(:last-child) {
+  margin-bottom: 25px;
+}
+.form__inp:last-child(:not(button)) {
+  margin-bottom: 40px;
+}
+.form__inp input {
+  width: 260px;
+  font-family: Montserrat;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.2);
+  outline: none;
+}
+.form__inp input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+}
+.form__inp input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 300;
+}
+.form__title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: Montserrat;
+  line-height: normal;
+  margin: 0px 0px 40px 0px;
+}
+.form__fillName::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-image: url("./../../../assets/inputs/user.svg");
+  background-size: cover;
+}
+.form__fillEmail::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-image: url("./../../../assets/inputs/mail.svg");
+  background-size: cover;
+}
+.form__fillPhone::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 17px;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 30px;
+  background-image: url("./../../../assets/inputs/smartphone.svg");
+  background-size: cover;
+}
+.form__button {
+  background: #D9D9D9;
+  width: 200px;
+  height: 70px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: normal;
+}
+.form__button:hover {
+  cursor: pointer;
+}
